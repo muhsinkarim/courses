@@ -1,0 +1,215 @@
+* { 
+	width: 100%;
+	margin: 0; 
+	padding: 0; 
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url("images/flickr_numbers_DaveBleasdale.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	text-align: center;
+}
+
+h1 {
+	padding: 0.5em 0 0.5em 0;
+	font-size: 2.25em;
+	color: white;	
+	text-align: center;
+}
+
+nav {
+	font-family: Arial, sans-serif;
+	font-size: 1em;
+ 	float: right;
+}
+
+nav a {
+	margin: 1em;
+	padding: 0;
+	color: white;
+	text-decoration: none;
+}
+
+nav a:hover {
+  	background-color: #aaaaaa;
+  	color: #000000;
+  	text-decoration: none;
+}
+
+#section_all_cafes {
+	background-color: #F0F0F0;
+	margin: 0 auto;
+	padding: 1em 0 1em 0; 
+}
+
+.section_counts_percent {
+	background-color: #F0F0F0;
+	margin: 0 auto;
+	padding: 1em 0 1em 0; 
+}
+
+.section_category {
+	margin: 0 auto;
+	padding: 1em 0 1em 0;
+}
+
+.subheadings p {
+	padding: 0 0 0.5em 0;	
+	font-size: 0.75em;
+	font-weight: bold;
+	color: #666666;
+}
+
+.coffee_names {
+	width: 30%;
+	margin: 0;
+	padding: 0;
+	font-family: 'Handlee';
+	font-size: 1em;
+	font-weight: bold;
+	float: left;
+}
+
+.coffee_scores {
+	width: 15%;
+	margin: 0;
+	padding: 0;
+	font-size: 1em;	 
+	float: left;
+}
+
+.coffee_change {
+	width: 15%;
+	margin: 0;
+	padding: 0;
+	font-size: 1em;	 
+	float: left;
+}
+
+.coffee_percent {
+	width: 25%;	
+	margin: 0;
+	padding: 0 0 1em 0;
+	float: left;
+}
+
+.coffee_customers {
+	width: 15%;
+	margin: 0;
+	padding: 0;
+	font-size: 1em;		
+	float: left;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+	font-size: 0;
+} 
+
+#wrapper {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+#column_half_1, #column_half_2 {
+	width: 50%;
+	float: left;
+}
+
+#image_left {
+	width: 50%;
+	padding: 0 0.5em 0 0;	
+	float: left;
+}
+
+#image_right {
+	width: 50%;
+	padding: 0 0 0.5em 0.5em;
+	float: left;	
+}
+
+#top {
+	background-color: black
+}
+
+#top img {
+	width: "1250em"
+}
+
+#logo {
+	width: 20%;
+	padding: 0.5em 0 0.5em 0;
+}
+
+#section_ytd {
+	margin: 0 auto;
+	padding: 1em 0 1em 0;
+}
+
+
+@media only screen and (max-width: 943px) {
+    nav {
+    	font-size: 0.75em;
+    }
+}
+
+@media only screen and (max-width: 934px) {
+	h1 {
+    	font-size: 2em;
+    }
+}
+
+@media only screen and (max-width: 830px) {
+	h1 {
+    	font-size: 1.75em;
+    }
+}
+
+@media only screen and (max-width: 726px) {
+	h1 {
+    	font-size: 1.5em;
+    }
+}
+
+@media only screen and (max-width: 707px) {
+    nav {
+  		float: none;
+    }
+}
+
+@media only screen and (max-width: 623px) {
+	h1 {
+    	font-size: 1.25em;
+    }
+	#image_left, #image_right {
+		width: 100%;
+		padding: 0;	
+		float: none;		
+	}
+}
+
+@media only screen and (max-width: 580px) {
+	.subheadings p {
+		font-size: 0.45em;
+	}
+}
+
+@media only screen and (max-width: 519px) {
+	h1 {
+    	font-size: 1em;
+    }
+}
+
+@media only screen and (max-width: 415px) {
+	h1 {
+    	font-size: 0.8em;
+    }
+}

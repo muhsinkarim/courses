@@ -1,0 +1,187 @@
+* { width: 100%;
+	margin: 0.5em 0.5em 0.5em 0.5em; 
+	padding: 0; 
+	box-sizing:border-box; 
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	text-align: center;
+}
+
+h1 {
+	color: rgb(85, 153, 255);
+	font-size: 2.5em;
+	text-align: left;
+	position:relative;
+	z-index:2;
+}
+
+h2 {
+	font-size: 2em;
+}
+
+h3 {
+	font-size: 1.75em;
+}
+
+nav {
+  background-color: black;
+  font-family: Arial, sans-serif;
+  font-size: 2em;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  /*display: block;*/
+  float: left;
+  padding: 0.1em;
+  width: 5em;
+}
+
+#top {
+	background-color: black
+}
+
+nav a:hover {
+ 	text-decoration: none;
+  	color: #000000;
+  	background-color: #aaaaaa;
+}
+
+#logo {
+	width: 20%;
+}
+
+.section_all_cafes {
+	margin: 0 auto;
+	padding: 2em 0 2em 0; 
+    max-width: 75em;
+}
+
+.section_counts_percent {
+	/*background-color: black;*/
+	margin: 0 auto;
+	padding: 2em 0 2em 0; 
+    max-width: 75em;
+}
+
+.section_ytd {
+	/*background-color: black;*/
+    margin: 0 auto;
+    max-width: 75em;
+}
+
+.section_state {
+	/*background-color: black;*/
+    margin: 0 auto;
+	padding: 2em 0 2em 0;
+    max-width: 75em;
+}
+
+.section_state img {
+	width: 37em;
+	padding: 0.5em;
+	margin: 0em;
+}
+
+.section_category {
+    background-color: black;
+	margin: 0 auto;
+	padding: 2em 0 2em 0;
+    max-width: 75em;
+}
+
+.column_half_1 {
+	width: 50%
+}
+
+.column_half_2 {
+	width: 50%
+}
+
+#column1 {
+	/*background-color: grey;*/
+	width: 30%
+}
+
+#column2 {
+	/*background-color: grey;*/
+	width: 15%
+}
+
+#column3 {
+	/*background-color: grey;*/
+	width: 15%
+}
+
+#column4 {
+	/*background-color: grey;*/
+	width: 25%	
+}
+
+#column5 {
+	/*background-color: grey;*/
+	width: 15%	
+}
+
+.clearfix:after {
+	visibility: : hidden;
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+	font-size: 0;
+} 
+
+.coffee_names {
+	/*width: 25%;*/
+	font-size: 1em;
+	padding: 0;
+	margin: 0; 
+	float: left;
+}
+
+.coffee_scores {
+	font-size: 1em;
+	padding: 0;
+	margin: 0; 
+	float: left;
+}
+
+.coffee_change {
+	font-size: 1em;
+	padding: 0;
+	margin: 0; 
+	float: left;
+}
+
+.coffee_percent {
+	padding: 0;
+	margin: 0; 
+	float: left;
+}
+
+.coffee_customers {
+	font-size: 1em;
+	padding: 0;
+	margin: 0; 
+	float: left;
+}
+
+/*.bullets {
+	margin:auto;
+	text-align: left;
+	width: 15em;
+}*/
+
+@media only screen and (max-width: 480px) {
+	nav a {
+		/*display: block;*/
+		/*text-align: center;*/
+		/*margin: 0; */
+		/*float: none;*/
+	}
+}	

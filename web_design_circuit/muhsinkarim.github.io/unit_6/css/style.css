@@ -1,0 +1,139 @@
+* { width: 100%;
+	margin: 0.5em 0.5em 0.5em 0.5em; 
+	padding: 0; 
+	box-sizing:border-box; 
+}
+
+body {
+	/*background-color: rgb(255, 253, 245);*/
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	text-align: center;
+}
+
+h1 {
+	color: rgb(85, 153, 255);
+	font-size: 2.5em;
+	text-align: left;
+	position:relative;
+	z-index:2;
+}
+
+h2 {
+	font-size: 2em;
+}
+
+h3 {
+	font-size: 1.75em;
+}
+
+nav {
+  background-color: #aaaaaa;
+  font-family: Arial, sans-serif;
+}
+
+nav a {
+  /*background-color: rgb(85, 153, 255);*/
+  color: white;
+  text-decoration: none;
+  display: block;
+  float: left;
+  padding: 0.1em;
+  width: 5em;
+}
+
+nav a:hover {
+ 	text-decoration: none;
+  	color: #000000;
+  	background-color: #aaaaaa;
+}
+
+#logo {
+	width: 90%;
+}
+
+#section_main_plot img {
+	width: 90%;
+	/*max-width: 50%*/
+}
+
+/*.section_counts_percent {
+	width: 100%;
+	float: left;
+	display: block;
+}
+*/
+.wrapper {
+	/*width: 100%;*/
+	/*float: left;*/
+	/*display: block;*/
+}
+
+#column1 {
+	background-color: #AC54FF;
+	width: 20%
+}
+
+#column2 {
+	background-color: #5485FF;
+	width: 15%
+}
+
+#column3 {
+  	background-color: #00CC66;
+	width: 25%
+}
+
+#column4 {
+	background-color: #47FFF2;
+	width: 25%	
+}
+
+.clearfix:after {
+	visibility: : hidden;
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+	font-size: 0;
+} 
+
+.coffee_names {
+	/*width: 25%;*/
+	font-size: 1em;
+	float: left;
+}
+
+/*.test {
+	display: inline;
+	margin: 0;
+	padding: 0;
+}*/
+
+.coffee_sales {
+	/*width: 25%;*/
+	font-size: 0.75em;
+	float: left;
+}
+
+.coffee_counts {
+	/*width: 25%;*/
+	/*height: 2.8em;*/
+	float: left;
+}
+
+.coffee_percent {
+	/*width: 25%;*/
+	float: left;
+}
+
+#contact {
+	/*font-size: 1.5em;*/
+	/*font-family: 'Fanwood Text', serif;*/
+}
+
+.bullets {
+	margin:auto;
+	text-align: left;
+	width: 15em;
+}
